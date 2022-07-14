@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Configurations>Debug;Development</Configurations>
-    <RootNamespace>Game.TargetVector.Automation</RootNamespace>
-    <AssemblyName>Game.TargetVector.Automation</AssemblyName>
+    <RootNamespace>TargetVector.Automation</RootNamespace>
+    <AssemblyName>TargetVector.Automation</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>..\..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Game.TargetVector</OutputPath>
+    <OutputPath>..\..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\TargetVector</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
